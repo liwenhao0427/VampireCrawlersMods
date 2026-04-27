@@ -1,0 +1,49 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VampireCrawlers.RuntimeMod", "src\VampireCrawlers.RuntimeMod\VampireCrawlers.RuntimeMod.csproj", "{B7F0746A-BD62-498D-8C4D-9F7AA71EC2F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VampireCrawlers.EnemyHealthOverlay", "src\VampireCrawlers.EnemyHealthOverlay\VampireCrawlers.EnemyHealthOverlay.csproj", "{8F1B1792-7F75-4F40-B345-1D59D2C3D5E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VampireCrawlers.DpsOverlay", "src\VampireCrawlers.DpsOverlay\VampireCrawlers.DpsOverlay.csproj", "{37B2981D-2601-4434-B9B9-D3E2BA102B1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VampireCrawlers.DevConsole", "src\VampireCrawlers.DevConsole\VampireCrawlers.DevConsole.csproj", "{8E8946D7-9935-45EA-80DE-3F1D248BE508}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VampireCrawlers.UnlockController", "src\VampireCrawlers.UnlockController\VampireCrawlers.UnlockController.csproj", "{1994C623-0E45-4A67-83B1-9DB28BA16E7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VampireCrawlers.ImageReplacer", "src\VampireCrawlers.ImageReplacer\VampireCrawlers.ImageReplacer.csproj", "{35F742C1-C042-4144-8E29-EC7C8ED99FA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7F0746A-BD62-498D-8C4D-9F7AA71EC2F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F0746A-BD62-498D-8C4D-9F7AA71EC2F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F0746A-BD62-498D-8C4D-9F7AA71EC2F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7F0746A-BD62-498D-8C4D-9F7AA71EC2F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F1B1792-7F75-4F40-B345-1D59D2C3D5E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F1B1792-7F75-4F40-B345-1D59D2C3D5E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F1B1792-7F75-4F40-B345-1D59D2C3D5E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F1B1792-7F75-4F40-B345-1D59D2C3D5E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37B2981D-2601-4434-B9B9-D3E2BA102B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37B2981D-2601-4434-B9B9-D3E2BA102B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37B2981D-2601-4434-B9B9-D3E2BA102B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37B2981D-2601-4434-B9B9-D3E2BA102B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E8946D7-9935-45EA-80DE-3F1D248BE508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E8946D7-9935-45EA-80DE-3F1D248BE508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E8946D7-9935-45EA-80DE-3F1D248BE508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E8946D7-9935-45EA-80DE-3F1D248BE508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1994C623-0E45-4A67-83B1-9DB28BA16E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1994C623-0E45-4A67-83B1-9DB28BA16E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1994C623-0E45-4A67-83B1-9DB28BA16E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1994C623-0E45-4A67-83B1-9DB28BA16E7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35F742C1-C042-4144-8E29-EC7C8ED99FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F742C1-C042-4144-8E29-EC7C8ED99FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F742C1-C042-4144-8E29-EC7C8ED99FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F742C1-C042-4144-8E29-EC7C8ED99FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

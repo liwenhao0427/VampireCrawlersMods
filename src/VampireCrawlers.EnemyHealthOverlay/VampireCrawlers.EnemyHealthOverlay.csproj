@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>VampireCrawlers.EnemyHealthOverlay</AssemblyName>
+    <RootNamespace>VampireCrawlers.EnemyHealthOverlay</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VampireCrawlers.RuntimeMod\VampireCrawlers.RuntimeMod.csproj" Private="false" />
+  </ItemGroup>
+</Project>

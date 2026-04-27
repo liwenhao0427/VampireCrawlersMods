@@ -1,0 +1,68 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>..\..\artifacts\plugins\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BepInEx.Core" Private="false">
+      <HintPath>$(MSBuildThisFileDirectory).tools\BepInEx-Unity.IL2CPP-win-x64-6.0.0-be.755+3fab71a\BepInEx\core\BepInEx.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Unity.Common" Private="false">
+      <HintPath>$(MSBuildThisFileDirectory).tools\BepInEx-Unity.IL2CPP-win-x64-6.0.0-be.755+3fab71a\BepInEx\core\BepInEx.Unity.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Unity.IL2CPP" Private="false">
+      <HintPath>$(MSBuildThisFileDirectory).tools\BepInEx-Unity.IL2CPP-win-x64-6.0.0-be.755+3fab71a\BepInEx\core\BepInEx.Unity.IL2CPP.dll</HintPath>
+    </Reference>
+    <Reference Include="HarmonyX" Private="false">
+      <HintPath>$(MSBuildThisFileDirectory).tools\BepInEx-Unity.IL2CPP-win-x64-6.0.0-be.755+3fab71a\BepInEx\core\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime" Private="false">
+      <HintPath>$(MSBuildThisFileDirectory).tools\BepInEx-Unity.IL2CPP-win-x64-6.0.0-be.755+3fab71a\BepInEx\core\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Pancake" Private="false">
+      <HintPath>$(MSBuildThisFileDirectory)Vampire Crawlers\BepInEx\interop\Pancake.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib" Private="false">
+      <HintPath>$(MSBuildThisFileDirectory)Vampire Crawlers\BepInEx\interop\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Serialization" Private="false">
+      <HintPath>$(MSBuildThisFileDirectory)Vampire Crawlers\BepInEx\interop\Sirenix.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro" Private="false">
+      <HintPath>$(MSBuildThisFileDirectory)Vampire Crawlers\BepInEx\interop\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Localization" Private="false">
+      <HintPath>$(MSBuildThisFileDirectory)Vampire Crawlers\BepInEx\interop\Unity.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule" Private="false">
+      <HintPath>$(MSBuildThisFileDirectory)Vampire Crawlers\BepInEx\interop\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI" Private="false">
+      <HintPath>$(MSBuildThisFileDirectory)Vampire Crawlers\BepInEx\interop\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule" Private="false">
+      <HintPath>$(MSBuildThisFileDirectory)Vampire Crawlers\BepInEx\interop\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule" Private="false">
+      <HintPath>$(MSBuildThisFileDirectory)Vampire Crawlers\BepInEx\interop\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule" Private="false">
+      <HintPath>$(MSBuildThisFileDirectory)Vampire Crawlers\BepInEx\interop\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule" Private="false">
+      <HintPath>$(MSBuildThisFileDirectory)Vampire Crawlers\BepInEx\interop\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem" Private="false">
+      <HintPath>$(MSBuildThisFileDirectory)Vampire Crawlers\BepInEx\interop\Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule" Private="false">
+      <HintPath>$(MSBuildThisFileDirectory)Vampire Crawlers\BepInEx\interop\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

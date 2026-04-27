@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>VampireCrawlers.DevConsole</AssemblyName>
+    <RootNamespace>VampireCrawlers.DevConsole</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VampireCrawlers.RuntimeMod\VampireCrawlers.RuntimeMod.csproj" Private="false" />
+  </ItemGroup>
+</Project>

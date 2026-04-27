@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>VampireCrawlers.DpsOverlay</AssemblyName>
+    <RootNamespace>VampireCrawlers.DpsOverlay</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VampireCrawlers.RuntimeMod\VampireCrawlers.RuntimeMod.csproj" Private="false" />
+  </ItemGroup>
+</Project>

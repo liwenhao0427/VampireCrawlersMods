@@ -1,0 +1,6 @@
+Vampire Crawlers/
+.tools/
+artifacts/
+analysis/
+src/**/bin/
+src/**/obj/
